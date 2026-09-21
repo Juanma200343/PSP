@@ -21,7 +21,14 @@ public class Deportivo extends Evento {
 	@Override
 	public double calcularCosteBase() {
 		// TODO Auto-generated method stub
-		return 0;
+		double precioAlquilerEstadio = 0;
+		double calculo = 0;
+		if(televisivos == true) {
+		 calculo = precioAlquilerEstadio - 10000;
+		}else {
+			calculo = precioAlquilerEstadio;
+		}
+		return calculo;
 	}
 
 
