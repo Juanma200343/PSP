@@ -140,7 +140,7 @@ public abstract class Evento {
 	}
 	
 	
-	public abstract float calcularCosteBase();
+	public abstract double calcularCosteBase();
 	
 	
 	@Override
